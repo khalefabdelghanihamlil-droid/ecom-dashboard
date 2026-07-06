@@ -1,0 +1,73 @@
+.stat-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.stat-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.stat-card-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.stat-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: var(--bg-surface-elevated);
+}
+
+.stat-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stat-card-value {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.stat-card-trend {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.trend-up {
+  color: var(--status-success);
+}
+
+.trend-down {
+  color: var(--status-error);
+}
+
+.trend-label {
+  color: var(--text-muted);
+  font-weight: 400;
+  margin-left: 4px;
+}
+
+/* Icon colors */
+.icon-primary { color: var(--accent-primary); background-color: var(--accent-primary-alpha); }
+.icon-emerald { color: var(--status-success); background-color: var(--status-success-bg); }
+.icon-amber { color: var(--status-warning); background-color: var(--status-warning-bg); }
+.icon-rose { color: var(--status-error); background-color: var(--status-error-bg); }
+.icon-indigo { color: #818cf8; background-color: rgba(129, 140, 248, 0.15); }
+.icon-cyan { color: #22d3ee; background-color: rgba(34, 211, 238, 0.15); }
+.icon-violet { color: #a78bfa; background-color: rgba(167, 139, 250, 0.15); }
